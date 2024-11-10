@@ -11,7 +11,7 @@ export const SITE: Site = {
   postPerIndex: 4,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  showArchives: false,
   editPost: {
     url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
     text: "Suggest Changes",
@@ -27,8 +27,8 @@ export const LOCALE = {
 export const LOGO_IMAGE = {
   enable: false,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 35,
+  height: 4,
 };
 
 export const SOCIALS: SocialObjects = [
